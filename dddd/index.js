@@ -58,7 +58,8 @@ function placeMarker(position, map) {
 
     var marker = new google.maps.Marker({
         position: position,
-        map: map
+        map: map,
+        icon: 'cat.png'
     });
     let data = JSON.stringfy(marker);
 
