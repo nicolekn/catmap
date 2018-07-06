@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>gatos</title>
+
+  <style>
+    #map{
+      height:400px;
+      width:100%;
+    }
+    </style>
+
+</head>
+<body>
+  <p>cat spotting</p>
+  <script src="index.js"></script>
+<div id="map"></map>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-hYKDm5BEQ1HObjBQZ7ysSilxQ0J5XvE&callback=initMap"
+      async defer></script>
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyB167QqeRfgSj49-HzhONrztjjfthViwN4",
+    authDomain: "test-5a192.firebaseapp.com",
+    databaseURL: "https://test-5a192.firebaseio.com",
+    projectId: "test-5a192",
+    storageBucket: "test-5a192.appspot.com",
+    messagingSenderId: "108164859923"
+  };
+  firebase.initializeApp(config);
+</script>
+</html>
